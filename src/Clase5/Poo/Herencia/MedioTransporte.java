@@ -11,6 +11,7 @@ public class MedioTransporte {
         this.piloto = piloto;
     }
 
+    // SOBRECARGA
     public void encender(){
         System.out.println("El medio de transporte arrancó");
     }

@@ -10,6 +10,9 @@ import Clase5.Poo.Herencia.MedioTerrestre;
 import Clase5.Poo.Herencia.MedioTransporte;
 import Clase5.Poo.Herencia.Motocicleta;
 import Clase5.Poo.Herencia.Piloto;
+import Clase6.Encapsulamiento.Estudiante;
+import Clase6.Encapsulamiento.ModuloInscripcion;
+import Clase6.Encapsulamiento3.Persona;
 
 public class Main {
     public static void main(String[] args) {
@@ -38,27 +41,52 @@ public class Main {
         // System.out.println("animal2.peso = " + animal2.peso);
         // animal2.correr();
 
-        Piloto piloto1 = new Piloto("Juan", 34);
+        // Piloto piloto1 = new Piloto("Juan", 34);
 
-        MedioTerrestre medioT = new MedioTerrestre(1250, 2, piloto1, 4);
-        System.out.println("medioT.altura = " + medioT.altura);
-        System.out.println("medioT.peso = " + medioT.peso);
-        System.out.println("medioT.cantidadLlantas = " + medioT.cantidadLlantas);
-        medioT.encender();
-        medioT.apagar();
+        // MedioTerrestre medioT = new MedioTerrestre(1250, 2, piloto1, 4);
+        // System.out.println("medioT.altura = " + medioT.altura);
+        // System.out.println("medioT.peso = " + medioT.peso);
+        // System.out.println("medioT.cantidadLlantas = " + medioT.cantidadLlantas);
+        // medioT.encender();
+        // medioT.apagar();
 
-        Motocicleta moto1 = new Motocicleta(150,0.75F, piloto1, "AXS");
-        System.out.println("moto1.altura = " + moto1.altura);
-        System.out.println("moto1.peso = " + moto1.peso);
-        System.out.println("moto1.cantidadLlantas = " + moto1.cantidadLlantas);
-        System.out.println("moto1.marcaCadena = " + moto1.marcaCadena);
-        moto1.apagar();
-        moto1.encender();
+        // Motocicleta moto1 = new Motocicleta(150,0.75F, piloto1, "AXS");
+        // System.out.println("moto1.altura = " + moto1.altura);
+        // System.out.println("moto1.peso = " + moto1.peso);
+        // System.out.println("moto1.cantidadLlantas = " + moto1.cantidadLlantas);
+        // System.out.println("moto1.marcaCadena = " + moto1.marcaCadena);
+        // moto1.apagar();
+        // moto1.encender();
 
-        MedioTransporte tranp1 = new MedioTransporte(100, 4, piloto1);
-        tranp1.encender();
-        tranp1.encender("1234");
-        System.out.println("tranp1.piloto.nombre = " + tranp1.piloto.nombre);
+        // MedioTransporte tranp1 = new MedioTransporte(100, 4, piloto1);
+        // tranp1.encender();
+        // tranp1.encender("1234");
+        // System.out.println("tranp1.piloto.nombre = " + tranp1.piloto.nombre);
+
+        // final int Constante = 10; // el final no deja cambiar o reasignar el valor de la constante
+
+        // --- Encapsulamiento / Encapsulación ---
+        // public, protected private, default
+
+        // Persona persona1 = new Persona("Diana", "115282319", 25);
+        // System.out.println("persona1 = " + persona1.nombre);
+
+        // Estudiante estudiante1 = new Estudiante("Juan", "43029122", 19);
+        // Estudiante estudiante2 = new Estudiante("Marcela", "5934029", 24);
+        // Estudiante estudiante3 = new Estudiante("Sandra", "114839200", 23);
+
+        // System.out.println("estudiante1 = " + estudiante1.nombre + " " + estudiante1.numeroCedula + " " + estudiante1.edad);
+
+        // ModuloInscripcion sistemaInscripcion = new ModuloInscripcion();
+        // sistemaInscripcion.inscribirEstudiante(estudiante1);
+        // sistemaInscripcion.inscribirEstudiante(estudiante2);
+        // sistemaInscripcion.inscribirEstudiante(estudiante3);
+
+        // CON ATRIBUTOS PRIVADOS (Encapsulamiento 3)
+        Persona persona2 = new Persona("Carolina", "69042234", 19);
+        System.out.println("persona2.getNombre() = " + persona2.getNombre());
+        System.out.println("persona2.getNumeroCedula() = " + persona2.getNumeroCedula());
+        System.out.println("persona2.getEdad() = " + persona2.getEdad());
     }
     
 }
