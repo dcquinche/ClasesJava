@@ -1,18 +1,7 @@
-import Clase3.ArrayDemo;
-import Clase3.Funciones; // se importa la clase o función
-import Clase3.MathDemo;
-import Clase3.StringDemo;
-import Clase4.ArrayListDemo;
-import Clase4.ColasDemo;
-import Clase4.PilasDemo;
-import Clase4.Poo.Animal;
-import Clase5.Poo.Herencia.MedioTerrestre;
-import Clase5.Poo.Herencia.MedioTransporte;
-import Clase5.Poo.Herencia.Motocicleta;
-import Clase5.Poo.Herencia.Piloto;
-import Clase6.Encapsulamiento.Estudiante;
-import Clase6.Encapsulamiento.ModuloInscripcion;
-import Clase6.Encapsulamiento3.Persona;
+import Clase7.clasesAbstractas.Circulo;
+import Clase7.clasesAbstractas.Rectangulo;
+import Clase7.interfaces.implementaciones.animales.Animal;
+import Clase7.interfaces.implementaciones.transportes.Automovil;
 
 public class Main {
     public static void main(String[] args) {
@@ -83,10 +72,24 @@ public class Main {
         // sistemaInscripcion.inscribirEstudiante(estudiante3);
 
         // CON ATRIBUTOS PRIVADOS (Encapsulamiento 3)
-        Persona persona2 = new Persona("Carolina", "69042234", 19);
-        System.out.println("persona2.getNombre() = " + persona2.getNombre());
-        System.out.println("persona2.getNumeroCedula() = " + persona2.getNumeroCedula());
-        System.out.println("persona2.getEdad() = " + persona2.getEdad());
+        // Persona persona2 = new Persona("Carolina", "69042234", 19);
+        // System.out.println("persona2.getNombre() = " + persona2.getNombre());
+        // System.out.println("persona2.getNumeroCedula() = " + persona2.getNumeroCedula());
+        // System.out.println("persona2.getEdad() = " + persona2.getEdad());
+
+        // CLASES ABSTRACTAS
+        Circulo circulo1 = new Circulo(10);
+        Rectangulo rectangulo1 = new Rectangulo(10, 20);
+        circulo1.MostrarInfo();
+        rectangulo1.MostrarInfo();
+
+        // INTERFACES
+        Automovil auto1 = new Automovil();
+        auto1.desplazarse(50);
+        Animal animal1 = new Animal();
+        animal1.desplazarse(3);
+        System.out.println(animal1.direccion("derecha"));;
+        animal1.emitirSonido();
     }
     
 }

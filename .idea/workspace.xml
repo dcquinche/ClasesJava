@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9073954-0c62-4631-8eac-43040be525e3" name="Changes" comment="Add class 5">
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Encapsulamiento/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Encapsulamiento/ModuloInscripcion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Encapsulamiento/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Encapsulamiento2/Foraneo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Encapsulamiento3/Contaduria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Encapsulamiento3/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase6/Encapsulamiento3/Persona.java" afterDir="false" />
+    <list default="true" id="b9073954-0c62-4631-8eac-43040be525e3" name="Changes" comment="Add class 6">
+      <change afterPath="$PROJECT_DIR$/src/Clase7/clasesAbstractas/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clase7/clasesAbstractas/Forma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clase7/clasesAbstractas/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clase7/interfaces/contratos/Desplazable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clase7/interfaces/contratos/EmisorSonido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clase7/interfaces/implementaciones/animales/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clase7/interfaces/implementaciones/transportes/Automovil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clase5/Poo/Herencia/MedioTransporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase5/Poo/Herencia/MedioTransporte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clase5/Poo/Herencia/Piloto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase5/Poo/Herencia/Piloto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691111012740</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add class 6">
+      <option name="closed" value="true" />
+      <created>1691253998993</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691253998994</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -96,17 +102,7 @@
     <MESSAGE value="Add class 3" />
     <MESSAGE value="Add class 4" />
     <MESSAGE value="Add class 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add class 5" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Add class 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add class 6" />
   </component>
 </project>
