@@ -10,4 +10,5 @@ public class Estudiante extends Persona {
         // this.id = ++contadorId; en este caso empezaría a aumentar desde la primera variable y, por tanto, el valor iniciaría en 1
         this.codigo = this.nombre + this.id;
     }
+
 }

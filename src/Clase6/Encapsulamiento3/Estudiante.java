@@ -20,14 +20,12 @@ public class Estudiante extends Persona {
         this.promedio = promedio;
     }
 
-    // @Override
-    // public String toString(){
-    //    return "Estudiante {" +
-    //            "Nombre " + this.getNombre() +
-    //            "Cédula " + this.getNumeroCedula() +
-    //            "Edad " + this.getEdad() +
-    //            "Promedio " + this.getPromedio() + "}";
-    //}
-
-
+    @Override
+    public String toString(){
+        return "Estudiante {" +
+                "Nombre " + this.getNombre() +
+                "Cédula " + this.getNumeroCedula() +
+                "Edad " + this.getEdad() +
+                "Promedio " + this.getPromedio() + "}";
+    }
 }

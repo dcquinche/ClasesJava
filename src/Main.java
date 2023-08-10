@@ -1,7 +1,12 @@
 import Clase7.clasesAbstractas.Circulo;
 import Clase7.clasesAbstractas.Rectangulo;
-import Clase7.interfaces.implementaciones.animales.Animal;
 import Clase7.interfaces.implementaciones.transportes.Automovil;
+import Clase8.polimorfismo.Animal;
+import Clase8.polimorfismo.Gato;
+import Clase8.polimorfismo.Perro;
+import Clase8.polimorfismo.contratos.IAnimal;
+
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -78,18 +83,52 @@ public class Main {
         // System.out.println("persona2.getEdad() = " + persona2.getEdad());
 
         // CLASES ABSTRACTAS
-        Circulo circulo1 = new Circulo(10);
-        Rectangulo rectangulo1 = new Rectangulo(10, 20);
-        circulo1.MostrarInfo();
-        rectangulo1.MostrarInfo();
+        // Circulo circulo1 = new Circulo(10);
+        // Rectangulo rectangulo1 = new Rectangulo(10, 20);
+        // circulo1.MostrarInfo();
+        // rectangulo1.MostrarInfo();
 
         // INTERFACES
-        Automovil auto1 = new Automovil();
-        auto1.desplazarse(50);
-        Animal animal1 = new Animal();
-        animal1.desplazarse(3);
-        System.out.println(animal1.direccion("derecha"));;
-        animal1.emitirSonido();
+        // Automovil auto1 = new Automovil();
+        // auto1.desplazarse(50);
+        // Animal animal1 = new Animal();
+        // animal1.desplazarse(3);
+        // System.out.println(animal1.direccion("derecha"));;
+        // animal1.emitirSonido();
+
+        // POLIMORFISMO
+        // Es la capacidad que tiene un objeto de ser tratado como uno con una jerarquía superior.
+
+        // Polimorfismo de subtipos -> herencia
+        // ArrayList<Animal> animales = new ArrayList<Animal>();
+
+        // El Perro y el Gato se pueden comportar como clase Animal gracias a la herencia.
+        // Por eso, con polimorfismo puedo tener diferentes clases en un mismo arraylist,
+        // pero se siguen instanciando como lo que son y, por tanto, reconoce la diferencia de los métodos entre perro y gato.
+
+        // Perro perro1 = new Perro("Pinki", "French Poodle");
+        // Gato gato1 = new Gato("Michi", "Persa");
+        // Animal perro2 = new Perro("Lisy", "Pastor");
+        // Animal gato2 = new Gato("Kira", "Persa");
+        // animales.add(perro1);
+        // animales.add(gato1);
+        // animales.add(perro2);
+        // animales.add(gato2);
+
+        // for (Animal animal: animales) {
+        //    animal.sonido();
+        // }
+
+        // Polimorfismo con interfaces
+        ArrayList<IAnimal> animales2 = new ArrayList<>();
+        IAnimal perro3  = new Perro("Iris", "Labrador");
+        IAnimal gato3 = new Gato("Tito", "Persa");
+        animales2.add(perro3);
+        animales2.add(gato3);
+
+        for (IAnimal animal: animales2){
+            animal.correr();
+        }
     }
     
 }
