@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9073954-0c62-4631-8eac-43040be525e3" name="Changes" comment="Add class 7">
-      <change afterPath="$PROJECT_DIR$/src/Clase8/polimorfismo/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase8/polimorfismo/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase8/polimorfismo/Perro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase8/polimorfismo/contratos/IAnimal.java" afterDir="false" />
+    <list default="true" id="b9073954-0c62-4631-8eac-43040be525e3" name="Changes" comment="Add class 8">
+      <change afterPath="$PROJECT_DIR$/src/Clase10/genericos/ejemplo1/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clase10/genericos/ejemplo1/Contenedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clase10/genericos/ejemplo1/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clase10/genericos/ejemplo2/MiArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clase10/genericos/ejemplo2/MiArrayIterador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clase9/excepciones/EjemploFecha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clase6/Encapsulamiento/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase6/Encapsulamiento/Estudiante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clase6/Encapsulamiento3/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase6/Encapsulamiento3/Estudiante.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691540957623</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add class 8">
+      <option name="closed" value="true" />
+      <created>1691628703817</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691628703817</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,6 +119,7 @@
     <MESSAGE value="Add class 5" />
     <MESSAGE value="Add class 6" />
     <MESSAGE value="Add class 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add class 7" />
+    <MESSAGE value="Add class 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add class 8" />
   </component>
 </project>

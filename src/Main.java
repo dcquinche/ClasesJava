@@ -1,7 +1,10 @@
+import Clase10.genericos.ejemplo1.Contenedor;
+import Clase10.genericos.ejemplo1.Persona;
+import Clase10.genericos.ejemplo1.Animal;
+import Clase10.genericos.ejemplo2.MiArray;
 import Clase7.clasesAbstractas.Circulo;
 import Clase7.clasesAbstractas.Rectangulo;
 import Clase7.interfaces.implementaciones.transportes.Automovil;
-import Clase8.polimorfismo.Animal;
 import Clase8.polimorfismo.Gato;
 import Clase8.polimorfismo.Perro;
 import Clase8.polimorfismo.contratos.IAnimal;
@@ -120,15 +123,95 @@ public class Main {
         // }
 
         // Polimorfismo con interfaces
-        ArrayList<IAnimal> animales2 = new ArrayList<>();
-        IAnimal perro3  = new Perro("Iris", "Labrador");
-        IAnimal gato3 = new Gato("Tito", "Persa");
-        animales2.add(perro3);
-        animales2.add(gato3);
+        // ArrayList<IAnimal> animales2 = new ArrayList<>();
+        // IAnimal perro3  = new Perro("Iris", "Labrador");
+        // IAnimal gato3 = new Gato("Tito", "Persa");
+        // animales2.add(perro3);
+        // animales2.add(gato3);
 
-        for (IAnimal animal: animales2){
-            animal.correr();
-        }
+        // for (IAnimal animal: animales2){
+        //     animal.correr();
+        // }
+
+        // EXCEPCIONES
+        // ---Verificadas(checked exception)
+        // ---No verificadas(unchecked exception - runtime Exception)
+        // EjemploUno ejExc1 = new EjemploUno();
+
+        // try {
+        // ejExc1.convertirADate("2023-08");
+        // } catch (ParseException e) {
+        // System.out.println("Se generó un error al momento de parsear la fecha " + e);
+        // }
+
+        // System.out.println("Antes");
+        // try {
+        // ejExc1.mostrarLongitudCadena("");
+        // } catch (NullPointerException e) {
+        // System.out.println("Error : " + e);
+        // }
+        // System.out.println("Después");
+
+        // Auto auto1 = new Auto(false);
+        // System.out.println("Antes");
+        // try {
+        // auto1.alquilar();
+        // } catch (AutoNoDisponibleException e) {
+        // System.out.println("Error: " + e.getMessage());
+        // }
+
+        // System.out.println("Después");
+
+        // GENÉRICOS
+        // Persona estudiante1 = new Persona("Alberto", "00000000", 25);
+         // Animal animal1 = new Animal("Pinki", "Poodle");
+
+        // Contenedor<Persona, Animal> contenedor1 = new Contenedor<>(estudiante1, animal1);
+        // System.out.println("Contenido: " + contenedor1.getContenidoT());
+        // System.out.println("Contenido: " + contenedor1.getContenidoU());
+
+        // Animal animal2 = new Animal("Juano", "Jack Rusell");
+        // Animal animal3 = new Animal("Michi", "Persa");
+        // Animal animal4 = new Animal("Pepito", "Bengala");
+
+        // MiArray<Animal> miArray = new MiArray<>();
+
+        // miArray.agregar(animal1);
+        // miArray.agregar(animal2);
+        // miArray.agregar(animal3);
+        // miArray.agregar(animal4);
+
+        // for (Animal animal : miArray) {
+        //     System.out.println(animal.getNombre());
+        // }
+
+        // VALOR VS REFERENCIA
+        // int a = 2;
+        // int b = a;
+        // int c = 2;
+
+        // b = 5;
+
+        // System.out.println(a);
+        // System.out.println(b);
+        // Persona persona2 = new Persona("Miguel", "12454515", 26);
+        // System.out.println(a == c);
+
+        // Persona persona1 = new Persona("Miguel", "12454515", 26);
+        // Persona persona3 = persona1;
+
+        // System.out.println(persona1.getEdad());
+        // System.out.println(persona3.getEdad());
+
+        // persona3.setEdad(28);
+
+        // System.out.println(persona1.getEdad());
+        // System.out.println(persona3.getEdad());
+
+        // System.out.println(persona1);
+        // System.out.println(persona2);
+        // System.out.println(persona3);
+        // System.out.println(persona1.equals(persona2));
+        // System.out.println(persona1.equals(persona3));
     }
-    
 }
